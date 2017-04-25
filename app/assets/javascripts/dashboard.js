@@ -80,7 +80,7 @@ MinionPoller = {
       checked = '';
     }
     masterHtml = '<input name="roles[master][]" id="roles_master_' + minion.id +
-      '" value="' + minion.id + '" type="radio" disabled="" ' + checked + '>';
+      '" value="' + minion.id + '" type="checkbox" disabled="" ' + checked + '>';
 
     return "\
       <tr> \
@@ -102,7 +102,7 @@ MinionPoller = {
       checked = '';
     }
     masterHtml = '<input name="roles[master][]" id="roles_master_' + minion.id +
-      '" value="' + minion.id + '" type="radio" ' + checked + '>';
+      '" value="' + minion.id + '" type="checkbox" ' + checked + '>';
 
     return "\
       <tr> \
